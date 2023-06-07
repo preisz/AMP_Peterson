@@ -8,7 +8,6 @@
 #include <chrono>  // for high_resolution_clock
 #include <string>
 
-
 #include "Ptree.hpp"
 
 void testCorrectnes(auto &lock){
@@ -53,8 +52,6 @@ void testCorrectnes(auto &lock){
     std::cout << "___________________________________________________________________" << std::endl;
     std::cout << std::endl;
 }
-
-
 int main(int argc, char *argv[]) {
 
     //variables
